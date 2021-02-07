@@ -1,0 +1,95 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: khaki;
+}
+
+
+
+#search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+#search-bar > div{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F7F5;
+    padding: 15px 0 15px 15px;
+    border-radius: 10px 0 0 10px;
+}
+#search-bar > div > input{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+}
+#search-bar > button{
+    font-size: 20px;
+    padding: 25px;
+    margin: 0;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+#search-bar > div > img{
+    width: 30px;
+}
+#error-message{
+    text-align: center;
+    display: none;
+    color:red;
+}
+
+#search-results-area{
+    display: grid;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+
+
+#search-results-area > div{
+    background-color: #f1f1f1;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#search-results-area > div > img{
+    width: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+#details-area{
+    display: none;
+}
+#details-area div{
+    width: max-content;
+    margin: 50px auto;
+}
+#details-area img{
+    width: 300px;
+    border-radius: 10px;
+}
+#ingredients-list{
+    list-style: none;
+    padding: 0;
+}
+#ingredients-list img{
+    width: 20px;
+    margin-right: 5px;
+}
+#ingredients-list li{
+    display: flex;
+    line-height: 0;
+    align-items: center;
+    margin: 5px 0;
+}
+#ingredients-list p{
+    margin: 0;
+}
